@@ -77,6 +77,14 @@ static ssize_t sample_write(struct file *file, const char *usr_buf,
             printk(KERN_INFO "%c", write_buff[i]);
         }
     }
+
+    //rescount should now have the filtered msg, now we will to converit into morse
+    //0 is space, 111 is dash
+    int dash_count = 0;
+    short matched;
+    for (i = 0; i<res_count; i++) {
+        
+    }
     return len; /*return the num of bytes written*/
 }
 
