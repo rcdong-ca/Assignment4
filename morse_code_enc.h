@@ -21,6 +21,8 @@
 // Between characters, must have 3-dot times (total) of off (0's) (not encoded here)
 // Between words, must have 7-dot times (total) of off (0's) (not encoded here).
 //
+
+
 static unsigned short morsecode_codes[] = {
 		0xB800,	// A 1011 1
 		0xEA80,	// B 1110 1010 1
